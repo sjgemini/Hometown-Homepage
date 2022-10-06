@@ -1,0 +1,143 @@
+body {
+    background-color: #ffddd2;
+}
+
+body, h1, h2, .title, .title-facts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+    border: 8px solid #83c5be;
+    border-radius: 5px;
+}
+
+#cardiff-img {
+    background: url("cardiff-bay.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 40px 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1, h2 {
+    border: none;
+    border-radius: 5px;
+    margin: 1em auto;
+    padding: 5px;
+    font-family: 'Alkalami', serif;
+    text-shadow: 0 0 1px black;
+}
+
+h1 {
+    font-size: 70px;
+    color: #ffddd2;
+}
+
+h2 {
+    font-size: 24px;
+    width: 25em;
+    background-color: #83c5be;
+    color: #006d77;
+    padding-top: 10px;
+}
+
+.title, .title-facts {
+    font-family: 'Alkalami', serif;
+    text-shadow: 0 0 1px black;
+    color: #006d77;
+    padding: 60px 0 10px;
+    font-size: 30px;
+    width: 20em;
+    height: 2em;
+    margin: 40px auto 0 auto;
+}
+
+.activity-1, .activity-2, .activity-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.activity-1-title, .activity-2-title, .activity-3-title, li {
+    display: flex;
+    flex-direction: column;
+    color: #006d77;
+    font-size: 26px;
+    padding-top: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+.activity-1-title, .activity-3-title {
+    align-items: flex-start;
+}
+
+.activity-2-title {
+    align-items: flex-end;
+}
+
+h4 {
+   background-color: #83c5be;
+   padding: 10px 20px;
+   border-radius: 5px; 
+}
+
+.activities {
+    margin: 40px;
+}
+
+h5 {
+    text-align: left;
+    font-size: 20px;    
+}
+
+.info-1, .info-3 {
+    padding: 0 30px;
+}
+
+.info-2 {
+    padding-right: 30px;
+}
+
+li, .items-li {
+    text-align: left;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+#card {
+    width: 400px;
+    height: 180px;
+    display: flex;
+    background-color: #83c5be;
+    justify-content: space-around;
+    text-align: left;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid #006d77;
+    color: #006d77;
+    font-family: 'Lobster', cursive;
+}
+
+#avatar {
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.card-title, .card-name, .card-info {
+    text-align: center;
+}
+
+.card-title, .card-name {
+    font-size: 18px;
+}
